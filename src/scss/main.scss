@@ -49,7 +49,7 @@
     font-size: 12px;
     font-weight: bold;
     color: rgb(165, 163, 163);
-    margin: 98px 40px 0 0;
+    margin: 98px 20px 0 0;
   }
 
   .home__block--right, p {
@@ -57,7 +57,9 @@
   }
 
   p {
-    margin: 0 400px 0 385px;
+    position: relative;
+    z-index: 2;
+    margin: 0 25% 0 28%;
     line-height: 35px;
     letter-spacing: 1.2px;
     font-size: 18px;
@@ -65,18 +67,19 @@
   }
 
   .bachelorWeb, .designer {
-    position: relative;
+    position: absolute;
+    z-index: 1;
   }
 
   .bachelorWeb {
-    width: 115px;
-    transform: translateX(365%);
-    top: 167px;
+    width: 8%;
+    transform: translateX(416px);
+    top: 1066px;
   }
 
   .designer {
-    width: 100px;
-    transform: translateX(560px);
-    top: 1015px;
+    width: 8%;
+    transform: translateX(938px);
+    top: 1066px;
   }
 }

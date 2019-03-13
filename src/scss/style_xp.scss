@@ -1,0 +1,17 @@
+@import  './reset.scss';
+@import './main_xp.scss';
+@import './header_xp.scss';
+
+@font-face {
+  font-family: "Buttercup Sample";
+  src: url('fonts/buttercup_sample.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bahnschrift";
+  src: url('fonts/bahnschrift.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
