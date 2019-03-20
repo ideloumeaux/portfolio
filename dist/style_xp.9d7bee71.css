@@ -8,13 +8,74 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
+    color: black;
     font-weight: 100; }
+
+.project {
+  font-family: "bahnschrift", Georgia; }
+  .project h3 {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 15px 0 5px 0; }
+  .project h4 {
+    color: #8b8b8b;
+    font-size: 14px;
+    margin: 0 0 25px 0; }
+  .project .project__block {
+    display: flex;
+    margin: 100px 0 150px 0; }
+  .project .project__block--left {
+    margin: 0 0 0 150px; }
+  .project .project__block--right {
+    margin: 0 250px 0 100px; }
+  .project img {
+    width: 500px;
+    height: 300px;
+    margin: 15px 0 0 0; }
+  .project .button--right {
+    border: solid;
+    border-width: 1.2px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    margin: 20px 0 0 418px; }
+  .project .home__block--right {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #a5a3a3;
+    margin: 98px 40px 0 0; }
+  .project p {
+    line-height: 35px;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    text-align: justify; }
+
+.button {
+  border: solid;
+  border-width: 1.6px;
+  width: 150px;
+  height: 40px;
+  line-height: 2.3;
+  text-align: center;
+  margin: 50px 0 0 418px;
+  transition-duration: 0.05s;
+  transition-delay: 0.1s;
+  transition: all 0.2s linear; }
+  .button:hover {
+    color: white;
+    background-color: black; }
 
 header {
   background: #fcfcfc;
   font-family: "bahnschrift", Georgia;
   width: 100%;
-  height: 60px; }
+  height: 60px;
+  margin: 0 0 100px 0; }
   header a {
     text-decoration: none;
     font-style: none;
