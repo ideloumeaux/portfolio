@@ -1,0 +1,43 @@
+body{
+  background: #f4e7ce;
+
+.contact {
+  font-family: "bahnschrift", Georgia;
+  height: 100%;
+}
+
+  img {
+    width: 35px;
+    margin: 35px 0 15px 0;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 20px 0;
+    justify-content: center;
+  }
+
+  li {
+    margin: 20px 20px 0 80px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .contact__block {
+    margin: 100px 400px 0 400px;
+    justify-content: center;
+  }
+
+  p {
+    line-height: 35px;
+    letter-spacing: 1.2px;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    text-align: justify;
+  }
+
+  .contact__links {
+    margin: 50px 65px 0 0;
+  }
+}
