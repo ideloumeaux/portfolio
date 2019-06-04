@@ -1,89 +1,148 @@
-*{
-  scroll-behavior: smooth;
-}
+* {
+	scroll-behavior: smooth;
+// }
 
-.home {
-    height: 690px;
-    background: #f4e7ce;
+// .home {
+// 	height: 690px;
+// 	background: #f4e7ce;
 
-  h1 {
-    font-family: "bahnschrift", Georgia;
-    font-size: 150px;
-    font-weight: bold;
-    letter-spacing: 25px;
-    line-height: 150px;
-    color: rgb(230, 215, 193);
-    position: relative;
-    transform: translateX(-8px);
-    top: 180px;
-  }
+// 	h1 {
+// 		font-family: "bahnschrift", Georgia;
+// 		font-size: 105px;
+// 		font-weight: bold;
+// 		letter-spacing: 25px;
+// 		line-height: 150px;
+// 		color: rgb(230, 215, 193);
+// 		position: relative;
+// 		transform: translateX(-8px);
+// 		top: 180px;
+// 	}
 
-  .rectangle {
-    position: absolute;
-    width: 500px;
-    transform: translateX(560px);
-    top: 315px;
-  }
+// 	.name {
+// 		transform: translateX(460px);
+// 		top: 315px;
+// 	}
 
-  h2 {
-    font-family: "Buttercup Sample", Georgia;
-    font-size: 80px;
-    color: rgb(32, 32, 32);
-    text-align: center;
-    transform: translateY(-120px);
-  }
+// 	.rectangle {
+// 		position: absolute;
+// 		width: 500px;
+// 	}
+
+// 	h2 {
+// 		font-family: "Buttercup Sample", Georgia;
+// 		font-size: 50px;
+// 		color: rgb(32, 32, 32);
+// 		text-align: center;
+// 		transform: translateY(-90px);
+// 	}
+// }
+
+// .home__about {
+// 	height: 750px;
+
+// 	.triangle {
+// 		margin: 0 0 45px 0;
+// 	}
+
+// 	.home__block {
+// 		display: flex;
+// 	}
+
+// 	.home__block--right {
+// 		writing-mode: vertical-rl;
+// 		text-orientation: mixed;
+// 		text-transform: uppercase;
+// 		letter-spacing: 2px;
+// 		font-size: 12px;
+// 		font-weight: bold;
+// 		color: rgb(165, 163, 163);
+// 		margin: 98px 20px 0 0;
+// 	}
+
+// 	.home__block--right,
+// 	p {
+// 		font-family: "bahnschrift", Georgia;
+// 	}
+
+// 	p {
+// 		position: relative;
+// 		z-index: 2;
+// 		margin: 0 25% 0 28%;
+// 		line-height: 35px;
+// 		letter-spacing: 1.2px;
+// 		font-size: 18px;
+// 		text-align: justify;
+// 	}
+// }
+
+// @media screen and (min-width: 1597px) {
+	.home {
+		height: 690px;
+		background: #f4e7ce;
+	}
+
+	h1 {
+		font-family: "bahnschrift", Georgia;
+		font-size: 150px;
+		font-weight: bold;
+		letter-spacing: 25px;
+		line-height: 150px;
+		color: rgb(230, 215, 193);
+		position: relative;
+		transform: translateX(-8px);
+		top: 180px;
+	}
+
+	.rectangle {
+		position: absolute;
+		width: 500px;
+		transform: translateX(560px);
+		top: 315px;
+	}
+
+	h2 {
+		font-family: "Buttercup Sample", Georgia;
+		font-size: 80px;
+		color: rgb(32, 32, 32);
+		text-align: center;
+		transform: translateY(-120px);
+	}
 }
 
 .home__about {
-  height: 750px;
+	height: 750px;
 
-  .triangle {
-    margin: 0 0 45px 0;
-  }
-  
-  .home__block {
-    display: flex;
-  }
+	.triangle {
+		margin: 0 0 45px 0;
+	}
 
-  .home__block--right {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 12px;
-    font-weight: bold;
-    color: rgb(165, 163, 163);
-    margin: 98px 20px 0 0;
-  }
+	.home__block {
+		display: flex;
+	}
 
-  .home__block--right, p {
-    font-family: "bahnschrift", Georgia;
-  }
+	.home__block--right {
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 12px;
+		font-weight: bold;
+		color: rgb(165, 163, 163);
+		margin: 98px 20px 0 0;
+	}
 
-  p {
-    position: relative;
-    z-index: 2;
-    margin: 0 25% 0 28%;
-    line-height: 35px;
-    letter-spacing: 1.2px;
-    font-size: 18px;
-    text-align: justify;
-  }
+	.home__block--right,
+	p {
+		font-family: "bahnschrift", Georgia;
+	}
 
-  .bachelorWeb, .designer {
-    position: absolute;
-    z-index: 1;
-  }
-
-  .bachelorWeb {
-    width: 8%;
-    transform: translateX(416px);
-    top: 1066px;
-  }
-
-  .designer {
-    width: 8%;
-    transform: translateX(938px);
-    top: 1066px;
-  }
+	p {
+		position: relative;
+		z-index: 2;
+		margin: 0 25% 0 28%;
+		line-height: 35px;
+		letter-spacing: 1.2px;
+		font-size: 18px;
+		text-align: justify;
+	}
 }

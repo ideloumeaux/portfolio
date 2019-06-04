@@ -27,7 +27,6 @@ body{
   .contact__block {
     margin: 100px 400px 0 400px;
     justify-content: center;
-    //text-align: center;
   }
 
   p {
@@ -41,4 +40,9 @@ body{
   .contact__links {
     margin: 50px 65px 0 0;
   }
+
+  a:hover {
+    color: rgb(105, 105, 105);
+  }
+  
 }

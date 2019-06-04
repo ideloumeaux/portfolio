@@ -67,10 +67,11 @@ p {
   line-height: 2.3;
   text-align: center;
   margin: 50px 0 0 418px;
+  border-radius: 7px;
   /* for the animation */
   transition-duration: 0.05s;
   transition-delay: 0.1s;
-  transition: all 0.2s linear;
+  transition: all 0.2s ease-in-out;
   }
 
   .button:hover {

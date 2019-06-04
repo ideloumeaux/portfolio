@@ -22,8 +22,26 @@ header {
     letter-spacing: 1px;
   }
 
+  a::after {
+    content: "";
+    display: block;
+    width: 0;
+    background: #3F3C39;
+    height: 3px;
+    transition: all 0.4s; 
+    transform: translateY(5px);
+    color: #3F3C39;
+    font-weight: bold;
+  }
+  
+  a:hover::after {
+    width: 100%;
+    
+  }
+  
   a:hover {
     color: #3F3C39;
     font-weight: bold;
+    transition: all 0.1.5s; 
   }
 }
