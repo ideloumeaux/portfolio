@@ -40,6 +40,8 @@ body {
     text-align: justify; }
   body .contact__links {
     margin: 50px 65px 0 0; }
+  body a:hover {
+    color: dimgray; }
 
 header {
   background: #f0e1c9;
@@ -57,9 +59,22 @@ header {
   header li {
     margin: 20px 0 0 50px;
     letter-spacing: 1px; }
-  header a:hover {
+  header a::after {
+    content: "";
+    display: block;
+    width: 0;
+    background: #3F3C39;
+    height: 3px;
+    transition: all 0.4s;
+    transform: translateY(5px);
     color: #3F3C39;
     font-weight: bold; }
+  header a:hover::after {
+    width: 100%; }
+  header a:hover {
+    color: #3F3C39;
+    font-weight: bold;
+    transition: all 0.1 0.5s; }
 
 @font-face {
   font-family: "Buttercup Sample";
