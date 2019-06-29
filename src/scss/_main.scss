@@ -1,81 +1,6 @@
 * {
 	scroll-behavior: smooth;
-// }
 
-// .home {
-// 	height: 690px;
-// 	background: #f4e7ce;
-
-// 	h1 {
-// 		font-family: "bahnschrift", Georgia;
-// 		font-size: 105px;
-// 		font-weight: bold;
-// 		letter-spacing: 25px;
-// 		line-height: 150px;
-// 		color: rgb(230, 215, 193);
-// 		position: relative;
-// 		transform: translateX(-8px);
-// 		top: 180px;
-// 	}
-
-// 	.name {
-// 		transform: translateX(460px);
-// 		top: 315px;
-// 	}
-
-// 	.rectangle {
-// 		position: absolute;
-// 		width: 500px;
-// 	}
-
-// 	h2 {
-// 		font-family: "Buttercup Sample", Georgia;
-// 		font-size: 50px;
-// 		color: rgb(32, 32, 32);
-// 		text-align: center;
-// 		transform: translateY(-90px);
-// 	}
-// }
-
-// .home__about {
-// 	height: 750px;
-
-// 	.triangle {
-// 		margin: 0 0 45px 0;
-// 	}
-
-// 	.home__block {
-// 		display: flex;
-// 	}
-
-// 	.home__block--right {
-// 		writing-mode: vertical-rl;
-// 		text-orientation: mixed;
-// 		text-transform: uppercase;
-// 		letter-spacing: 2px;
-// 		font-size: 12px;
-// 		font-weight: bold;
-// 		color: rgb(165, 163, 163);
-// 		margin: 98px 20px 0 0;
-// 	}
-
-// 	.home__block--right,
-// 	p {
-// 		font-family: "bahnschrift", Georgia;
-// 	}
-
-// 	p {
-// 		position: relative;
-// 		z-index: 2;
-// 		margin: 0 25% 0 28%;
-// 		line-height: 35px;
-// 		letter-spacing: 1.2px;
-// 		font-size: 18px;
-// 		text-align: justify;
-// 	}
-// }
-
-// @media screen and (min-width: 1597px) {
 	.home {
 		height: 690px;
 		background: #f4e7ce;
@@ -88,12 +13,12 @@
 		letter-spacing: 25px;
 		line-height: 150px;
 		color: rgb(230, 215, 193);
-		position: relative;
-		transform: translateX(-8px);
+		transform: translateY(180px);
 		top: 180px;
 	}
 
 	.rectangle {
+		visibility: hidden;
 		position: absolute;
 		width: 500px;
 		transform: translateX(560px);
@@ -104,8 +29,8 @@
 		font-family: "Buttercup Sample", Georgia;
 		font-size: 80px;
 		color: rgb(32, 32, 32);
-		text-align: center;
 		transform: translateY(-120px);
+		text-align: center;
 	}
 }
 
@@ -144,5 +69,49 @@
 		letter-spacing: 1.2px;
 		font-size: 18px;
 		text-align: justify;
+	}
+}
+
+	@media screen and (min-width: 1500px) {
+		.rectangle {
+		visibility: visible;
+	}
+}
+
+@media screen and (min-width: 1060px) and (max-width: 1500px) {
+	h1 {
+		font-family: "bahnschrift", Georgia;
+		font-size: 150px;
+		font-weight: bold;
+		letter-spacing: 25px;
+		line-height: 150px;
+		color: rgb(230, 215, 193);
+		top: 180px;
+	}
+
+	h2 {
+		font-family: "Buttercup Sample", Georgia;
+		font-size: 80px;
+		color: rgb(32, 32, 32);
+		text-align: right;
+		transform: translateY(-120px);
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	h1 {
+		font-size: 100px;
+		letter-spacing: 15px;
+		display: inline-block;
+		transform: translateY(300px);
+		margin-left: 55px;
+	}
+
+	h2 {
+		font-family: "Buttercup Sample", Georgia;
+		font-size: 80px;
+		color: rgb(32, 32, 32);
+		text-align: center;
+		transform: translateY(-80px);
 	}
 }
